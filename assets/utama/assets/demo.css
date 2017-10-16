@@ -1,0 +1,164 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html{
+	background-color: #ffffff;
+}
+
+body{
+	font:12px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+}
+
+.kolom #kiri{
+float: left;
+ width: 50%;
+}
+
+.kolom #kanan{
+float: right;
+  width: 50%;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+.menu {
+	text-align: center;
+	padding-top: 55px;
+	margin-bottom:20px;
+}
+
+.menu img{
+	opacity: 1;
+	margin: auto;
+}
+
+.menu h1{
+	margin-top:0;
+	font: normal 36px/1.5 'Open Sans', sans-serif;
+	color: black;
+	padding-bottom: 0px;
+}
+
+.menu h2{
+	color: black;
+}
+
+.menu h2 a{
+	color:inherit;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #F05283;
+	padding: 10px 15px;
+	border-radius: 3px;
+	font: bold 12px/1 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.menu h2 a:hover{
+	background-color:#F05283;
+	transition:0.2s;
+	color:#fff;
+}
+
+.menu ul {
+	max-width: 600px;
+	margin: 60px auto 0;
+}
+
+.menu ul a{
+	text-decoration: none;
+	color: #FFF;
+	text-align: left;
+	background-color: #B9C1CA;
+	padding: 10px 16px;
+	border-radius: 2px;
+	opacity: 0.8;
+	font-size: 10px;
+	display: inline-block;
+	margin: 4px;
+	line-height: 1;
+	outline: none;
+
+	transition: 0.2s ease;
+}
+
+.menu ul li a.active{
+	background-color: #66B650;
+	pointer-events: none;
+}
+
+.menu ul li a:hover {
+	opacity: 1;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+@media (max-height:800px){
+	.menu { padding-top:40px; }
+}
+
+
+/* -- Demo ads -- */
+
+@media (max-width: 1200px) {
+	#bsaHolder{ display:none;}
+}
+
+/* -- Link to Tutorialzine -- */
+
+.tz-link{
+	text-decoration: none;
+	color: #fff !important;
+	font: bold 36px Arial,Helvetica,sans-serif !important;
+}
+
+.tz-link span{
+	color: #da431c;
+}
