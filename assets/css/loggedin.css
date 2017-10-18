@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+
+.menu-bar {
+    /*float: left;*/
+    padding-top: 5%;
+   text-align: center;
+   margin: auto;
+    width: 60%;
+    padding-left: 15%;
+
+}
+
+.menu-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 5px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+}
+
+.menu-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+}
+div.wrapper{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+	padding-right: 7%;
+
+}
+
+div.description{
+	position:relative; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	/* styling bellow */
+	background-color:black;
+	color:white;
+	opacity:0.6; /* transparency */
+	filter:alpha(opacity=60); /* IE transparency */
+}
+p.description_content{
+	padding:10px;
+	margin:auto;
+	font-size: 15px;
+}
